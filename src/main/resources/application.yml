@@ -1,0 +1,18 @@
+## server config
+server:
+  port: 8081
+  servlet:
+    context-path: /acardenas
+  http2:
+    enabled: true
+
+springdoc:
+  api-docs:
+    path: /api-torneo-tenis
+  swagger-ui:
+    path: /swagger-ui-torneo-tenis.html
+    operationsSorter: method
+
+
+
+
